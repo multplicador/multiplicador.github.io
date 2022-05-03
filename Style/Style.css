@@ -15,12 +15,6 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-
-/* header img {
-    height: 50px;
-    padding-left: 30px;
-    margin-top: 9px;
-} */
 header {
     background-color: rgb(255, 223, 57);
     display: flex;
