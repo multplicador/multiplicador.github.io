@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
@@ -74,6 +75,10 @@ nav a:hover {
     justify-content: center;
 }
 
+.bt button {
+    background-color: #ffe564;
+}
+
 .seta-d {
     height: 40px;
     margin-top: 10px;
@@ -115,7 +120,7 @@ nav a:hover {
 }
 
 .info p {
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
     font-size: 24px;
 }
@@ -203,17 +208,22 @@ button:active {
 
 #faetec {
     margin-top: 30px;
-    width: 120px;
+    width: 150px;
 }
 
 .rede img {
     margin-top: 20px;
-    height: 40px;
+    height: 30px;
 }
 
 @media screen and (max-width: 900px) {
     .menina {
         margin-top: -120px;
+
+    }
+
+    iframe {
+        width: 80%;
     }
 }
 
@@ -229,12 +239,34 @@ button:active {
         justify-content: center;
     }
 
+    .logo {
+        height: 150px;
+        margin-top: 140px;
+    }
+
     .center {
         margin: 0 auto;
     }
 
+    .info {
+        box-shadow: 0px 0px;
+        border: 1px solid yellow;
+
+    }
+
+    .info h1 {
+        font-size: 34px;
+    }
+
+    .info p {
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
     .menina {
         margin-top: -80px;
+        display: none;
     }
 
     header {
@@ -248,7 +280,7 @@ button:active {
     }
 
     iframe {
-        width: 400px;
+        width: 90%;
         height: 225px;
     }
 
